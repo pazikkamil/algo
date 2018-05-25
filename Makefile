@@ -7,6 +7,9 @@ else
 	PYTHON = python
 endif
 
+run:
+	bash -c "source $(FOLDER)/bin/activate; jupyter-notebook"
+
 all: jupyter_extend
 
 venv:
