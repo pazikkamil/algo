@@ -8,7 +8,7 @@ else
 endif
 
 run:
-	/bin/activate; jupyter-notebook
+	bash -c "source $(FOLDER)/bin/activate; jupyter-notebook"
 
 all: jupyter_extend
 
